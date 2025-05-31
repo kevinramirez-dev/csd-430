@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="module9.css"?>
+<teams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Module9-XMLSchema.xsd">
+  <team>
+    <name>Atlanta United FC</name>
+    <founded>2014</founded>
+    <stadium>Mercedes-Benz Stadium</stadium>
+    <players>
+      <player>
+        <name>Josef Martínez</name>
+        <position>Forward</position>
+        <number>7</number>
+        <nationality>Venezuelan</nationality>
+      </player>
+    </players>
+    <statistics>
+      <wins>15</wins>
+      <losses>10</losses>
+      <draws>9</draws>
+      <points>54</points>
+    </statistics>
+  </team>
+  <team>
+    <name>Seattle Sounders FC</name>
+    <founded>2007</founded>
+    <stadium>Lumen Field</stadium>
+    <players>
+      <player>
+        <name>Raúl Ruidíaz</name>
+        <position>Forward</position>
+        <number>9</number>
+        <nationality>Peruvian</nationality>
+      </player>
+    </players>
+    <statistics>
+      <wins>17</wins>
+      <losses>8</losses>
+      <draws>9</draws>
+      <points>60</points>
+    </statistics>
+  </team>
+</teams>

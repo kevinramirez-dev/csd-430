@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT teams (team+)>
+<!ELEMENT team (name, founded, stadium, players, statistics)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT founded (#PCDATA)>
+<!ELEMENT stadium (#PCDATA)>
+<!ELEMENT players (player+)>
+<!ELEMENT player (name, position, number, nationality)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT statistics (wins, losses, draws, points)>
+<!ELEMENT wins (#PCDATA)>
+<!ELEMENT losses (#PCDATA)>
+<!ELEMENT draws (#PCDATA)>
+<!ELEMENT points (#PCDATA)>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="teams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="team" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="founded" type="xs:gYear"/>
+              <xs:element name="stadium" type="xs:string"/>
+              <xs:element name="players">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="player" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string"/>
+                          <xs:element name="position" type="xs:string"/>
+                          <xs:element name="number" type="xs:positiveInteger"/>
+                          <xs:element name="nationality" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="statistics">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="wins" type="xs:nonNegativeInteger"/>
+                    <xs:element name="losses" type="xs:nonNegativeInteger"/>
+                    <xs:element name="draws" type="xs:nonNegativeInteger"/>
+                    <xs:element name="points" type="xs:nonNegativeInteger"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

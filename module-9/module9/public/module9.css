@@ -1,0 +1,117 @@
+teams {
+  display: block;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+team {
+  display: block;
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+name {
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+founded::before {
+  content: "Founded: ";
+  font-weight: bold;
+}
+founded {
+  display: block;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+stadium::before {
+  content: "Stadium: ";
+  font-weight: bold;
+}
+stadium {
+  display: block;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+players {
+  display: block;
+  margin-top: 10px;
+}
+
+player {
+  display: block;
+  background-color: #eef6fb;
+  border-left: 4px solid #007acc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+position::before {
+  content: "Position: ";
+  font-weight: bold;
+}
+number::before {
+  content: "Number: ";
+  font-weight: bold;
+}
+nationality::before {
+  content: "Nationality: ";
+  font-weight: bold;
+}
+
+position, number, nationality {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+statistics {
+  display: block;
+  background-color: #e9f7ef;
+  border-left: 4px solid #28a745;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+wins::before {
+  content: "Wins: ";
+  font-weight: bold;
+}
+losses::before {
+  content: "Losses: ";
+  font-weight: bold;
+}
+draws::before {
+  content: "Draws: ";
+  font-weight: bold;
+}
+points::before {
+  content: "Points: ";
+  font-weight: bold;
+}
+
+wins, losses, draws, points {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  font-size: 0.95em;
+  color: #333;
+}
+
